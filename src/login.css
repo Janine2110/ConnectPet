@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    }
+    .connect__formulario{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    }
+    .connect{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 100vh;
+    background: var(--verde-escuro, #57897D);
+    }
+    .connect__main {
+    align-items: center;
+    }
+    .patinhas{
+    width: 251px;
+    height: 249px;
+    }
+    .titulo{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 900;   
+    }
+    .titulo__inferior{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    }
+    .texto{
+    color: white;
+    font-family: inter;
+    }
+    .imagem__destaque{
+    width: 96.746px;
+    height: 87.676px;
+    }
+    .connect__conta{
+    color: #98C9A3;
+    font-family: Krub;
+    font-size: 24px;
+    font-style: normal;  
+    }
+    .cadastrar {
+    box-sizing: border-box;
+    border-radius: 71PX;
+    width: 300px;
+    height: 60px;
+    font-weight: bold;
+    border: none;
+    font-size: 18px;
+    font-family: krub; 
+    cursor: pointer;
+    }
+    .cadastrar1{
+    
+    cursor: pointer;
+    }
+    .mensagem {
+        font-size: small;
+    }
+    .patinhas{
+        cursor: pointer;
+    }
+    .Login {
+    background-color: #BFD8BD;
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; 
+    }
+    .login__formulario {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    }
+    form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    }
+    label,input{
+    display: block;
+    border-radius: 45px;
+    border: none;
+    }
+    input{
+    padding: 1rem 5.5rem;
+    }
+    .senha1 {
+    border-radius: 71px;
+    background: rgba(255,255,255,0.1);
+    color: white;
+    border-color: white;
+    border-style: solid;
+    font-weight: bold;
+    margin-top: 2rem;
+    width: 344px;
+    height: 40px;
+    padding: .8rem 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .botao2__detalhe {
+    color: #2C2C2C;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 71px;
+    width: 84px;
+    font-weight: bold;
+    border: none;
+    height: 4vh;
+    }
+    
+    button{
+        cursor: pointer;
+    }
+
+
+    
+    @media screen and (max-width: 768px) {
+        .connect__formulario {
+        align-items: center;
+        flex-direction: column;
+        }
+        .connect {
+        width: 100%;
+        gap: 1rem;
+        }
+        .patinhas {
+        width: 100%; 
+        max-width: 104px;
+        height: auto; 
+        align-items: center;
+        }
+        .titulo {
+        font-size: 6vw;      
+        font-style: normal;
+        font-weight: 900;
+        line-height: 1.2;      
+        letter-spacing: -0.396px; 
+        display: flex;
+        }
+        .titulo__inferior {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 93%;
+        letter-spacing: -0.352px;
+        align-items: center;
+        }
+        .texto {
+        font-size: 3vw;           
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;         
+        height: auto;
+        letter-spacing: -0.143px;
+        }
+        .imagem__destaque {
+        max-width: 8vh;
+        width: 100%;
+        height: auto;
+        display: none;
+        }
+        .connect__conta {
+        display: none;
+        }
+        .cadastrar {
+        font-size: 10px;
+        width: 15rem;
+        height: 1.6rem;
+        cursor: pointer;
+        }
+        .Login {
+        width: 100%;
+        }
+        .login__formulario {
+        align-items: center;
+        font-size: 16px;
+        }
+        input{
+        padding: .8rem 1.8rem;
+        }
+        .senha1 {
+        margin-top: 1rem;
+        width: 224px;
+        height: 40px;
+        padding: .8rem 1.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        }
+        }

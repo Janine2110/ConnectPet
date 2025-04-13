@@ -1,0 +1,267 @@
+
+
+.secLista{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--verdeEscuro);
+  height: 7rem;
+  padding: 1rem 2rem 1rem 2rem;
+}
+.listaPets{
+  padding-right: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+.petItem{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  width: 17rem;
+  padding: 0.4rem 0rem 0.4rem 2rem;
+  border-radius: 1rem;
+  background-color: var(--branco);
+}
+.petFoto{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 60%;
+  object-fit: cover;
+}
+.petInfo{
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  align-items: start;
+}
+.petNome{
+  text-align: start;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: var(--verdeEscuro);
+  width: 6rem;
+}
+.petRaca{
+  text-align: start;
+  font-weight: 300;
+  font-size: 0.8rem;
+  font-family: "Inter", sans-serif;
+  color: var(--verdeEscuro);
+  width: 6rem;
+}
+.petEditar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 30px;
+  background-color: var(--verdeEscuro);
+}
+.caneta{
+  width: 1.4rem;
+}
+.petEditar:hover{
+  cursor: pointer;
+}
+.btnRegistro{
+  width: 10rem;
+  height: 2.7rem;
+  border-radius: 33px;
+  background: none;
+  border-color: var(--branco);
+  color: var(--branco);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: none;
+}
+.btnRegistro:hover{
+  background-color: var(--branco);
+  color: var(--verdeEscuro);
+  font-weight: 700;
+}
+.btnRegistro:focus{
+  outline: none;
+}
+
+/* sec dos petsitters*/
+
+.secPetsitter{
+  padding: 5rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tituloPetsitter{
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+  align-items: center;
+}
+.petsitterTitulo{
+  font-family: "Inter", sans-serif;
+  color: var(--verdeEscuro);
+  font-size: 3rem;
+}
+.petsitterGrid{
+  margin-top: 5rem;
+  display: grid;
+  width: 55rem;
+  grid-template-columns: 1fr 1fr;
+  height: 50rem;
+  gap: 2rem;
+  
+}
+.petsitterItem{
+  width: 25rem;
+  height: 13rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items:center ;
+  background-color: var(--verdeEscuro);
+}
+.petsitterFoto{
+  margin-left: 1rem;
+  width: 13rem;
+  height: 13rem;
+  object-fit: cover;
+}
+.petsitterInfos{
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: start;
+}
+.petsitterNome{
+  color: var(--branco);
+}
+.petsitterExp{
+  color: var(--branco);
+  font-size: 0.7rem;
+}
+.aprovação{
+  margin-top: 2rem;
+  font-size: 0.8;
+  color: var(--branco);
+}
+.contato{
+  border: none;
+  background-color: var(--branco);
+  border-end-end-radius:  30rem;
+  border-start-end-radius:  30rem;
+  color: var(--verdeEscuro);
+  font-weight: 600;
+  padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+}
+.contato:hover{
+  cursor: pointer;
+}
+.btnRegistroMobile{
+  display: none;
+}
+/*Modal*/
+
+.customOverlay {
+  background-color: var(--verdeClaro) /* Fundo semi-transparente */
+}
+.customModal {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     /* Centraliza verticalmente */
+  height: 50vh;           /* Faz o modal ocupar 100% da altura da tela */
+  max-width: 40rem;        /* Largura máxima do modal (ajuste conforme necessário) */
+  width: 100%;             /* A largura do modal será adaptada */
+  margin: 0 auto;
+  background-color: var(--verdeClaro);
+}
+.formRegistro{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.tituloRegistro{
+  margin-bottom: 2rem;
+  font-family: "Inter", sans-serif;
+}
+.modalConteudo{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+.cachorroFoto1{
+  width: 16rem;
+  height: 20rem;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .secLista{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    height: 10rem;
+  }
+  .listaPets{
+    padding-left: 3.5rem;
+  }
+  .petInfo{
+    display: none;
+  }
+  .petFoto{
+    width: 4rem;
+    height: 4rem;
+  }
+  .petItem{
+    width: 4rem;
+    height: 5rem;
+    padding: 0 1rem;
+  }
+  .petEditar{
+    position: absolute;
+    margin-left: 3rem;
+  }
+  .btnRegistro{
+    display: none;
+  }
+  .btnRegistroMobile{
+    border: none;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 35px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--branco);
+    display: block;
+  }
+  .mais{
+    position: absolute;
+    margin: -0.89em;
+  }
+  .petsitterGrid{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+  }
+  
+  .petsitterTitulo{
+    font-size: 2rem;
+  }
+  .pata{
+    width: 5rem;
+  }
+
+  .petsitterItem{
+   margin: auto;
+   margin-top: 10px;
+  }
+}

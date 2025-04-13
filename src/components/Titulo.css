@@ -1,0 +1,47 @@
+header{
+    background-color: var(--verdeClaro);
+    height: 13.5rem;
+    padding: 1rem 2rem 0 2rem;
+  }
+  .btnContainer{
+    padding-right: 20rem;
+  }
+  .botaoVoltar{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    width: 2rem;
+    height: 2rem;
+    background-color: #fff;
+  }
+  .setaVoltar{
+    padding-top: 0.2rem;
+    padding-right: 0.2rem;
+  }
+  .perfilUser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fotoFrame{
+    display: flex;
+    align-items: center;
+    justify-content: center; ;
+    background-color: #fff;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 60%;
+  }
+  .fotoUser{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 60%;
+    object-fit: cover;
+  }
+  .nomeUser{
+    color: var(--branco);
+    font-size: 1.7rem;
+  }
+  
