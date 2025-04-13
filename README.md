@@ -1,24 +1,8 @@
-# ConnectPet
-🐾 ConnectPet - Conectando Petsitters e Tutores
-PConnectPet é um projeto desenvolvido em grupo com o objetivo de criar uma plataforma intuitiva e confiável para conectar tutores de pets com petsitters ideais para suas necessidades. Nosso foco é oferecer uma solução prática e segura para quem busca os melhores cuidados para seu pet — seja por algumas horas ou durante viagens.
+# React + Vite
 
-✨ Objetivo
-Nosso sistema facilita o encontro entre tutores e cuidadores de animais, permitindo que os usuários filtrem e escolham profissionais com base em localização, avaliações, disponibilidade e perfil de serviço. A ideia é oferecer tranquilidade para tutores e oportunidade para petsitters em um ambiente colaborativo e confiável.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-💡 Funcionalidades Principais (e Iniciais)
-Cadastro de usuários como tutores ou petsitters e animais
+Currently, two official plugins are available:
 
-Login de Usuário
-
-Perfil do animal com descrição
-
-Avaliação e comentários entre usuários
-
-Rotas funcionais entre páginas
-
-🛠️ Tecnologias Utilizadas
-Frontend: React / HTML + CSS + JS 
-
-Backend: Node.js
-
-Outras ferramentas: Git, Figma
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

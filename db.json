@@ -1,0 +1,35 @@
+{
+  "usuario": [
+    {
+      "id": "1",
+      "email": "miguelvencato.cupim@gmail.com",
+      "senha": "12345"
+    },
+    {
+      "id": "2",
+      "nome": "JanineFarias2005",
+      "senha": "54321"
+    }
+  ],
+  "pets": [
+    {
+      "nome": "",
+      "id": "3a52"
+    },
+    {
+      "id": "bc6f",
+      "nome": "Rogerinho",
+      "raca": "empresario",
+      "foto": "http://localhost:5173/cachorroSecretario.jpg",
+      "comentario": []
+    },
+    
+    {
+      "id": "2100",
+      "nome": "Rogerinho",
+      "raca": "Empresario",
+      "foto": "http://localhost:5173/cachorroSecretario.jpg",
+      "comentario": []
+    }
+  ]
+}
